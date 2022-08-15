@@ -1,2 +1,3 @@
 #!/bin/bash
-while true ; do vcgencmd measure_temp ; sleep 1 ; done
+# Get Pi CPU temp every 2 seconds:
+while true ; do vcgencmd measure_temp ; sleep 2 ; done
