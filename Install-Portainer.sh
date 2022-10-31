@@ -1,4 +1,6 @@
 #!/bin/bash
+# created by: Nicholas Doanthan
+# source: pi_scripts
 
 docker volume create portainer_data
 docker run -d -p 8000:8000 -p 9443:9443 /
